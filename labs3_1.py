@@ -17,3 +17,22 @@ Sample Input:
 Sample Output:
 2 
 '''
+l1=int(input())
+l2=int(input())
+l3=int(input())
+n=int(input())
+count=0
+#here we check 3 labs
+if l1<=n and l2<=n and l3<=n:
+    count+=3
+#here we check 2 labs
+elif l1<=n and l2<=n:
+    count+=2
+elif l2<=n and l3<=n:
+    count+=2
+elif l1<=n and l3<=n:
+    count+=2
+#here we check 1 lab
+elif l1<n or l2<n or l3<n:
+    count+=1
+print(count)
