@@ -12,3 +12,11 @@ Sample Input:
 Sample Output:
 Loss : Rs.12.00
 '''
+amount=float(input())
+no_banana=float(input())
+result=no_banana*12
+profit_loss=abs(amount-result)
+if result>amount:
+    print(f'Profit : Rs.{profit_loss:.2f}')
+else:
+    print(f'Loss : Rs.{profit_loss:.2f}')
