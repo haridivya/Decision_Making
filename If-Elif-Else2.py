@@ -28,3 +28,22 @@ Sample Input:
 78
 Sample Output:C
 '''
+ marks_grades(marks):
+    if marks>100:
+        return 'Invaild Input'
+    elif marks==100:
+        return 'S'
+    elif marks>=90 and marks<=99:
+        return 'A'
+    elif marks>=80 and marks<=89:
+        return 'B'
+    elif marks>=70 and marks<=79:
+        return 'C'
+    elif marks>=60 and marks<=69:
+        return 'D'
+    elif marks>=50 and marks<=59:
+        return 'E'
+    else:
+        return 'F'
+marks=int(input())
+print(marks_grades(marks))
