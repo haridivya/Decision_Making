@@ -33,15 +33,15 @@ Sample Output:C
         return 'Invaild Input'
     elif marks==100:
         return 'S'
-    elif marks>=90 and marks<=99:
+    elif marks>=90:
         return 'A'
-    elif marks>=80 and marks<=89:
+    elif marks>=80:
         return 'B'
-    elif marks>=70 and marks<=79:
+    elif marks>=70:
         return 'C'
-    elif marks>=60 and marks<=69:
+    elif marks>=60:
         return 'D'
-    elif marks>=50 and marks<=59:
+    elif marks>=50:
         return 'E'
     else:
         return 'F'
