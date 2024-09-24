@@ -13,3 +13,12 @@ Sample Input:
 Sample Output:
 6 less than 8
 '''
+def values(a,b):
+    if a==b:
+        print('{0} and {1} are equal'.format(a,b))
+    elif a>b:
+        print('{0} greater than {1}'.format(a,b))
+    else:
+        print('{0} less than {1}'.format(a,b))
+a,b=int(input()),int(input())
+values(a,b)
