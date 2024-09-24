@@ -37,4 +37,6 @@ elif 'l3' == val:
         print(l1)
     else:
         print(l2)
+else:
+    print('invalid')
 
