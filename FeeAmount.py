@@ -20,3 +20,19 @@ MSH
 Sample Output:
 90000.00
 '''
+student_type=input().upper()
+tuition_fee=float(input())
+bus_hotel_fee=float(input())
+result=0
+if student_type=='MSDS':
+    result=tuition_fee+bus_hotel_fee
+    print(f"{result:.2f}")
+elif student_type=='MSH':
+    result=tuition_fee+bus_hotel_fee
+    print(f"{result:.2f}")
+elif student_type=='MGSDS': 
+    result=tuition_fee+bus_hotel_fee
+    print(f"{result:.2f}")
+else:
+    result=tuition_fee+bus_hotel_fee
+    print(f"{result:.2f}")
